@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung_colors"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterPage">
+
+    <EditText
+        android:id="@+id/registerEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/registerPasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/registerNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/registerPhoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/registerAddressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/registerBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Year Of Birth"
+        android:inputType="date"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/updateUserInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="@drawable/buttonstyle"
+        android:onClick="registerUser"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>

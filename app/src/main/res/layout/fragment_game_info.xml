@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung_colors"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/gameInfoNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Game:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoGenreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Genre:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoPlatformText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Platform:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoReleaseYearText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Year of Release:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoDeveloperText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Developer:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoDistributorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:text="Distributor:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/gameInfoDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/gameInfoTrailerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/buttonstyle"
+                android:text="Trailer Link"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

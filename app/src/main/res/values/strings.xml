@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Game Your Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="successful_login">Login successful</string>
+    <string name="failed_login">Login failed</string>
+    <string name="successful_reg">Successful Registration</string>
+    <string name="failed_reg">Registration Failed</string>
+    <string name="failed_db_connection">Failed to connect to the Database</string>
+    <string name="image_description">Application Logo</string>
+</resources>

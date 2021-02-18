@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung_colors"
+    android:orientation="vertical"
+    tools:context=".fragments.UpdateUserInfo">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update user"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/personNameUpdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/phoneUpdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/addressUpdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/dateUpdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date"
+        android:inputType="date"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/updateUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:text="update"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
